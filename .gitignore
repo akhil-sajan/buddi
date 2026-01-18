@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment
+.env
+**/env
+**/.ENV
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build/Logs
+dist/
+build/
+*.log
+**/logs/
+
+# App Specific
+backend/uploads/*
+!backend/uploads/.gitkeep
